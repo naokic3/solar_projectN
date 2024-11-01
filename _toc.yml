@@ -5,8 +5,9 @@ parts:
 - caption: The pvlib module
   chapters:
   - file: introtut.ipynb
+  - file: docs/solar_resources.md
   - url: https://pvlib-python.readthedocs.io/en/stable/user_guide/package_overview.html
-    title: pvlib docs
+    title: pvlib official docs
 - caption: Weather Data
   chapters:
   - file: weather_data.md
