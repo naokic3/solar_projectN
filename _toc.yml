@@ -1,0 +1,13 @@
+format: jb-book
+root: README.md
+
+parts:
+- caption: The pvlib module
+  chapters:
+  - file: introtut.ipynb
+  - url: https://pvlib-python.readthedocs.io/en/stable/user_guide/package_overview.html
+    title: pvlib docs
+- caption: Weather Data
+  chapters:
+  - file: weather_data.md
+
