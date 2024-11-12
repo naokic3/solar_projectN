@@ -8,7 +8,10 @@ parts:
   - file: docs/solar_resources.md
   - url: https://pvlib-python.readthedocs.io/en/stable/user_guide/package_overview.html
     title: pvlib official docs
-- caption: Weather Data
+- caption: Data and Models
   chapters:
   - file: weather_data.md
+  - file: docs/solar_resources.md
+  - file: docs/weather_predict.md
+  
 

@@ -6,3 +6,6 @@
 
 ### Websites and Books
 
+
+
+- [Project Sunroof](https://sunroof.withgoogle.com/) by google. Shows costs and benefits of installing solar panels on your roof.
