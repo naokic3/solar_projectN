@@ -14,7 +14,7 @@ They provide a [colab](https://colab.research.google.com/drive/1qKDFRpq4Hk-LHgWu
 ![Solar](https://tryolabs.imgix.net/assets/blog/solar-energy-predictions-with-ai-a-joint-case-study/OCF1-fb07e5e01e.png?auto=format&fit=max&w=3840)
 
 
-![alt text](solar_prediction.png)
+![alt text](media/solar_prediction.png)
 
 The model seems to obtain weather forecasts from the Open-Meteo API, and then uses a neural network to predict solar irradiance.  
 ("Power (kw)", "Temperature", "Precipitation", "Cloud Cover (Low)", "Cloud Cover (Mid)",

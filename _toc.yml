@@ -13,5 +13,6 @@ parts:
   - file: weather_data.md
   - file: docs\solar_resources.md
   - file: docs\weather_predict.md
+  - file: docs\useful_python.md
 
 
