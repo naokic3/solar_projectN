@@ -1,6 +1,5 @@
 # Weather and solar irradiance prediction
 
-
 https://open-meteo.com/
 
 

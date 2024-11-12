@@ -11,7 +11,7 @@ parts:
 - caption: Data and Models
   chapters:
   - file: weather_data.md
-  - file: docs/solar_resources.md
-  - file: docs/weather_predict.md
-  
+  - file: docs\solar_resources.md
+  - file: docs\weather_predict.md
+
 
