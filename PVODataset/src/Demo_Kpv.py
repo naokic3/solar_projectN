@@ -67,7 +67,6 @@ class demo_K_PV(PVODataset):
 
         mc = ModelChain(system, site, transposition_model='perez',
                         solar_position_method='nrel_numpy',
-                        orientation_strategy='south_at_latitude_tilt',
                         aoi_model='physical', spectral_model='no_loss')
         
         mc.run_model(self.read_weather())
@@ -107,7 +106,7 @@ class demo_K_PV(PVODataset):
         mc  = self.init_PV_sys()
         K_pv = []
         K_pv, pltac= [], []
-        all_ac = np.array(mc.ac)
+        all_ac = np.array(mc.results.ac)
         for i in range(len(all_ac)):
             ac_i = all_ac[i] / 1e6 * 135
             # 135 is an estimated value based on the installed capacity of the station and the arrangement of PV panels, and each station is different.
