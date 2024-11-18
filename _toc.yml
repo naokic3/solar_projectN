@@ -10,6 +10,8 @@ parts:
     title: pvlib official docs
 - caption: Data and Models
   chapters:
+  - file: PVODataset/src/SampleCode.ipynb
+  - file: PVODataset/src/cams.ipynb
   - file: PVODataset/src/pvod_explore.ipynb
   - file: docs/solar_resources.md
   - file: weather_predict.md
