@@ -13,6 +13,7 @@ parts:
   - file: PVODataset/src/SampleCode.ipynb
   - file: PVODataset/src/cams.ipynb
   - file: PVODataset/src/pvod_explore.ipynb
+  - file: Temisan_SolarCode.ipynb
   - file: docs/solar_resources.md
   - file: weather_predict.md
   - file: docs/useful_python.md  
